@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 235, 220);
+    
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #0f53c0;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(106, 170, 106);
+    color: white;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(25, 105, 25);
+    transition: all ease .5s;
+}
+
+ol {
+    list-style-type: decimal;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    cursor: pointer;
+    color: #4113c0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
